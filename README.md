@@ -12,13 +12,19 @@ Welcome to my practice coding repository! This repository is dedicated to variou
 
 ## About
 
-This repository is a collection of various coding exercises and projects aimed at improving coding skills and understanding of different technologies. It includes:
+This repository is a collection of various coding exercises and projects aimed at improving coding skills and understanding of different technologies. It will include:
 
 - Cybersecurity projects
 - Task automation scripts
 - Data analysis projects
 - Web scraping exercises
 - API integration tutorials
+
+## Projects
+
+### 1. Password Generator
+- **Description:** This project involves creating a simple Python script to generate strong, random passwords. It ensures that passwords are long, complex, and difficult to guess or crack.
+- **Modules:** `secrets`, `string`
 
 ## Technologies Used
 
