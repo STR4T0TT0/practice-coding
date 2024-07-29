@@ -13,7 +13,6 @@ while True:
             and any(c.isupper() for c in GeneratedPassword)
             and sum(c.isdigit() for c in GeneratedPassword) >= PasswordMinimumNumbers):
         break
-        
-print('You can use ',GeneratedPassword)
 
+print('You can use ',GeneratedPassword)
 del GeneratedPassword, PasswordComplexity
