@@ -18,8 +18,8 @@ SrvIps_set = {"158.178.193.181","34.172.222.249"}
 for SrvIp in SrvIps_set:
     TestAliv = ping_server(SrvIp)
     if TestAliv == False:
-        print(SrvIp, " : Server 1 DOWN!")
+        print(SrvIp, " : Server DOWN!")
     else:
-        print(SrvIp, " : Server 1 up and running")
+        print(SrvIp, " : Server up and running")
 # End
 print("Done")
